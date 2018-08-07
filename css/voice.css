@@ -1,0 +1,56 @@
+@import url(base.css);
+.Face_recognition{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	/*background: #eeeeee;*/
+	background: url("../img/back.png");
+	background-size: 7.50rem 13.34rem;
+}
+.voice{
+	width: 6.18rem;
+	height: 1.61rem;
+	margin: 4.05rem auto 0;
+}
+.voice img{
+	width: 6.18rem;
+	height: 1.61rem;
+}
+.word{
+	width: 3.8rem;
+	height: 0.62rem;
+	margin: 0.71rem auto 0;
+}
+.action{
+	font-family: "苹方";
+	font-size: 0.28rem;
+	color: #ababab;
+	text-align: center;
+	line-height: 0.62rem;
+}
+.know{
+	width: 3.54rem;
+	height: 0.70rem;
+	border-radius: 0.35rem;
+	background-image: -webkit-linear-gradient(left,#fc9b10,#ffd041);
+	background-image: -moz-linear-gradient(left,#fc9b10,#ffd041);
+	background-image: -ms-linear-gradient(left,#fc9b10,#ffd041);
+	background-image: -o-linear-gradient(left,#fc9b10,#ffd041);
+	background-image: linear-gradient(left,#fc9b10,#ffd041);
+	margin: 3.78rem auto 0;
+}
+.know span{
+	display: block;
+	font-family: "苹方";
+	font-size: 0.24rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.70rem;
+}
+.next{
+	width: 4.45rem;
+	height: 0.70rem;
+	cursor: pointer;
+}

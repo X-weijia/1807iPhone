@@ -1,0 +1,30 @@
+@import url(base.css);
+.Face_recognition{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #fcfcfc;
+}
+.scan_frame{
+	width: 4.50rem;
+	height: 5.63rem;
+	background: #f2f2f2;
+	margin: 1.65rem auto 0;
+	border: 1px solid #cccccc;
+}
+.Face_recognition p{
+	display: block;
+	font-family: "苹方";
+	font-size: 20px;
+	color: #b8b8b8;
+	text-align: center;
+	margin-top: 3.68rem;
+}
+.next{
+	display: block;
+	margin-top: 0.8rem;
+	margin-left: 5.5rem;
+	font-size: 0.6rem;
+}

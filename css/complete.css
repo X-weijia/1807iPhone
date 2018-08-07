@@ -1,0 +1,64 @@
+@import url(base.css);
+.complete{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #eeeeee;
+}
+.frame{
+    width: 6.10rem;
+    height: 4.42rem;
+    margin: 4.96rem auto 0;
+    position: relative;
+}
+.frame img{
+    width: 6.10rem;
+    height: 4.42rem;
+}
+.tubiao{
+    width: 1.44rem;
+    height: 1.32rem;
+    position: absolute;
+    top: 0.46rem;
+    left: 2.30rem;
+
+}
+.tubiao img{
+    display: block;
+    margin: 0.1rem auto;
+    width: 1.12rem;
+    height: 1.09rem;
+}
+.sure{
+    font-family: "苹方";
+    font-size: 16px;
+    color: #a1a1a1;
+    position: absolute;
+    top: 1.90rem;
+    left: 1.90rem;
+}
+.yes{
+    border: none;
+    display: block;
+    width: 3.54rem;
+    height: 0.70rem;
+    background-image: -webkit-linear-gradient(left,#44f41c,#8cf47d);
+    background-image: -moz-linear-gradient(left,#44f41c,#8cf47d);
+    background-image: -ms-linear-gradient(left,#44f41c,#8cf47d);
+    background-image: -o-linear-gradient(left,#44f41c,#8cf47d);
+    background-image: linear-gradient(left,#44f41c,#8cf47d);
+    box-shadow: 0 0.05rem 0.3rem 0.04rem rgba(68,244,27,0.75);
+    border-radius: 0.35rem;
+    font-family: "苹方";
+    color: #ffffff;
+    position: absolute;
+    left: 1.3rem;
+    top: 3.2rem;
+}
+.next{
+    width: 3.54rem;
+    height: 0.70rem;
+    cursor: pointer;
+}

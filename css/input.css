@@ -1,0 +1,162 @@
+@import url(base.css);
+.Face_recognition{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #eeeeee;
+}
+.local{
+    width: 4rem;
+    height: 4rem;
+    margin: 0 auto;
+    position: relative;
+}
+.circle1{
+    width: 3.65rem;
+    height: 3.65rem;
+    border-radius: 50%;
+    margin: 1.51rem auto;
+    background: rgba(193,237,217,0.3);;
+    overflow: hidden;
+    animation: scale1 1.5s linear infinite;
+}
+@keyframes scale1 {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+.circle2{
+    width: 2.98rem;
+    height: 2.98rem;
+    border-radius: 50%;
+    margin: 0.33rem auto;
+    background: rgba(193,237,217,0.5);
+    overflow: hidden;
+    animation: scale2 1.5s linear infinite;
+}
+@keyframes scale2 {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+.circle3{
+    width: 2.22rem;
+    height: 2.22rem;
+    border-radius: 50%;
+    margin: 0.33rem auto;
+    background: rgba(193,237,217,1);
+    overflow: hidden;
+    animation: scale3 1.8s linear infinite;
+}
+@keyframes scale3 {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+.header_top{
+    width: 0.66rem;
+    height: 0.66rem;
+    border-radius: 50%;
+    background-image: -webkit-linear-gradient(bottom,#33c48b,#33d14e);
+    background-image: -moz-linear-gradient(bottom,#33c48b,#33d14e);
+    background-image: -ms-linear-gradient(bottom,#33c48b,#33d14e);
+    background-image: -o-linear-gradient(bottom,#33c48b,#33d14e);
+    background-image: linear-gradient(bottom,#33c48b,#33d14e);
+    margin: 0.45rem auto;
+    position: absolute;
+    top: 0.6rem;
+    left: 1.68rem;
+}
+.header_body{
+    width: 1.24rem;
+    height: 0.60rem;
+    border-radius: 0.30rem;
+    background-image: -webkit-linear-gradient(bottom,#33c48b,#33d14e);
+    background-image: -moz-linear-gradient(bottom,#33c48b,#33d14e);
+    background-image: -ms-linear-gradient(bottom,#33c48b,#33d14e);
+    background-image: -o-linear-gradient(bottom,#33c48b,#33d14e);
+    background-image: linear-gradient(bottom,#33c48b,#33d14e);
+    position: absolute;
+    top: 1.82rem;
+    left: 1.38rem;
+}
+.word{
+    width: 3.75rem;
+    height: 1.2rem;
+    margin: 0.51rem auto;
+}
+.word_top{
+    font-family: "苹方";
+    font-size: 0.28rem;
+    color: #33cf58;
+    text-align: center;
+    margin-bottom: 0.1rem;
+}
+.word_bottom{
+    font-family: "苹方";
+    font-size: 0.22rem;
+    color: #ababab;
+    text-align: center;
+    margin-top: 0.15rem;
+}
+.input{
+    width: 5.38rem;
+    height: 0.70rem;
+    margin: 1.37rem auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+.input_left{
+    width: 0.35rem;
+    height: 0.70rem;
+    float: left;
+    overflow: hidden;
+}
+.point{
+    width: 0.18rem;
+    height: 0.08rem;
+    border-radius: 0.04rem;
+    background: #ffcd2e;
+    box-shadow: 0 0.05rem 0.3rem 0.04rem rgba(255, 205, 46, 1);
+    margin: 0.36rem auto;
+}
+.input_box{
+    border: none;
+    outline: medium;
+    width: 4.89rem;
+    height: 0.70rem;
+    float: left;
+    background: #eeeeee;
+    padding-left: 0.14rem;
+}
+.start{
+    width: 3.54rem;
+    height: 0.70rem;
+    border-radius: 0.35rem;
+    background: #e2e2e2;
+    margin: 0.8rem auto;
+}
+.start span{
+    display: block;
+    font-family: "苹方";
+    font-size: 0.24rem;
+    color: #c4c4c4;
+    text-align: center;
+    line-height: 0.70rem;
+}
+.next{
+    width: 1.57rem;
+    height: 0.70rem;
+    cursor: pointer;
+}

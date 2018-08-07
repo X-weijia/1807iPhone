@@ -1,0 +1,64 @@
+@import url(base.css);
+.Face_recognition{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #eeeeee;
+}
+.header{
+	width:4rem;
+	height: 4rem;
+	margin: 2rem auto 0;
+}
+.header img{
+	width: 4rem;
+	height: 4rem;
+
+}
+.Face_recognition h2{
+	font-family: San Francisco Display;
+	font-size: 0.62rem;
+	text-align: center;
+	margin-top: 0.74rem;
+}
+.hand{
+	border: none;
+	display: block;
+	width: 4.45rem;
+	height: 0.70rem;
+	background-image: -webkit-linear-gradient(left,#2c59ec,#a2b5f3);
+	background-image: -moz-linear-gradient(left,#2c59ec,#a2b5f3);
+	background-image: -ms-linear-gradient(left,#2c59ec,#a2b5f3);
+	background-image: -o-linear-gradient(left,#2c59ec,#a2b5f3);
+	background-image: linear-gradient(left,#2c59ec,#a2b5f3);
+	border-radius: 0.35rem;
+	font-family: "苹方";
+	font-size: 0.36rem;
+	margin:2.80rem auto 0.24rem;
+	color: white;
+	box-shadow: 0 0.05rem 0.3rem 0.02rem rgba(48,141,191,0.75);
+}
+.face{
+	border: none;
+	display: block;
+	width: 4.45rem;
+	height: 0.70rem;
+	background-image: -webkit-linear-gradient(left,#44f41c,#8cf47d);
+	background-image: -moz-linear-gradient(left,#44f41c,#8cf47d);
+	background-image: -ms-linear-gradient(left,#44f41c,#8cf47d);
+	background-image: -o-linear-gradient(left,#44f41c,#8cf47d);
+	background-image: linear-gradient(left,#44f41c,#8cf47d);
+	border-radius: 0.35rem;
+	font-family: "苹方";
+	font-size: 0.36rem;
+	margin: 0 auto;
+	color: white;
+	box-shadow: 0 0.05rem 0.3rem 0.08rem rgba(68,244,27,0.75);
+}
+.next{
+	width: 4.45rem;
+	height: 0.70rem;
+	cursor: pointer;
+}
