@@ -13,3 +13,6 @@ body{
 img{
 	border: none;
 }
+button:focus{
+	outline: none;
+}
